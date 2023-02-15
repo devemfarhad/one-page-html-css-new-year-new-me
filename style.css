@@ -134,7 +134,7 @@ button{
 }
 /* styles add  */
 #add .add-body{
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     background: url(../images/watch.png);
 }

@@ -60,3 +60,49 @@ button{
     border: none;
     outline: none;
 }
+
+/* styles failures */
+#failures .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+#failures .container .left img{
+    width: 90%;
+}
+#failures .container .right{
+    width: 45%;
+}
+#failures .container .right .title{
+    font-size: 35px;
+    color: rgb(1, 1, 34);
+    width: 60%;
+}
+#failures .container .right .content{
+    padding: 25px 0px;
+    font-size: 17px;
+    color: rgb(83, 83, 83);
+    line-height: 20px;
+}
+#failures .container .right ul.list li{
+    list-style: none;
+}
+#failures .container .right ul.list li{
+    display: flex;
+    gap:10px;
+    font-size: 17px;
+    list-style: none;
+    margin: 10px 0px;
+    align-items: center;
+
+}
+#failures .container .right ul.list li i{
+    color: green;
+}
+#failures .container .right ul.list li p{
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+    line-height: 20px;
+    font-weight: 400;
+}

@@ -26,7 +26,7 @@ button{
     background-position: left;
     background-size: cover;
     align-items: center;
-    background-image: url(../images/banner/banner1.png);
+    background-image: url(./images/banner/banner1.png);
 }
 #banner .container{
     display: flex;
@@ -136,12 +136,12 @@ button{
 #add .add-body{
     width: 80%;
     border-radius: 10px;
-    background: url(../images/watch.png);
+    background: url(./images/watch.png);
 }
 #add .add-body .wrapper{
     padding: 50px;
     border-radius: 10px;
-    background: url(../images/gradient2.png);
+    background: url(./images/gradient2.png);
 }
 #add .add-body .wrapper h1{
     font-size: 42px;
